@@ -18,7 +18,7 @@ class No:
         Este método adiciona um nó em outro nó
         """
         self.filhos.append(noFilho)
-        noFilho.parent = self
+        noFilho.pai = self
         noFilho.profundidade = self.profundidade + 1
         
     
